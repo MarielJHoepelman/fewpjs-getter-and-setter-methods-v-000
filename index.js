@@ -18,7 +18,7 @@ class Circle{
   }
 
   set area(area) {
-    
+    Math.sqrt(area/ Math.PI)
   }
 
   get circumference() {
